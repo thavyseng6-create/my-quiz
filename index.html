@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Master</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="background-circle circle-one"></div>
+
+    <div class="background-circle circle-two"></div>
+
+    <div class="background-circle circle-three"></div>
+
+    <main class="quiz-container">
+
+        <div class="top-section">
+
+
+            <!-- Logo -->
+
+            <div class="quiz-logo">
+
+                <span>🧠</span>
+
+            </div>
+
+
+            <!-- Title -->
+
+            <div class="quiz-title">
+
+                <h1>Quiz Master</h1>
+
+                <p>Test your web development knowledge</p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =====================================
+             QUESTION INFORMATION
+        ====================================== -->
+
+        <div class="question-info">
+
+
+            <div class="question-badge">
+
+                <span>Question</span>
+
+                <strong id="question-number">
+                    1 of 5
+                </strong>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+        
+
+        <div class="progress-container">
+
+            <div
+                id="progress-bar"
+                class="progress-bar">
+            </div>
+
+        </div>
+
+
+
+        
+
+        <div class="question-box">
+
+            <h2 id="question">
+                Question goes here
+            </h2>
+
+        </div>
+
+
+
+       
+
+        <div
+            id="answer-buttons"
+            class="answer-buttons">
+
+        </div>
+
+        <div id="feedback"class="feedback">  </div>
+        <button
+            id="next-btn"
+            class="next-btn"
+            disabled>
+
+            <span>Next Question</span>
+
+            <span class="arrow">→</span>
+
+        </button>
+
+
+
+       
+
+        <div
+            id="result"
+            class="result-box">
+
+
+            <div class="result-circle">
+
+                🏆
+
+            </div>
+
+
+            <p class="result-small-title">
+                QUIZ COMPLETED
+            </p>
+
+
+            <h2>
+                Amazing Work!
+            </h2>
+
+
+            <p class="result-description">
+                You have completed the quiz.
+            </p>
+
+
+            <div class="final-score">
+
+                <span id="score">
+                    0
+                </span>
+
+                <span class="score-line">
+                    /
+                </span>
+
+                <span id="total">
+                    5
+                </span>
+
+            </div>
+
+
+            <p class="score-label">
+                Your Final Score
+            </p>
+            <button
+                id="restart-btn"
+                class="restart-btn">
+
+                <span>↻</span>
+
+                Try Again
+
+            </button>
+
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+
